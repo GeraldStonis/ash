@@ -456,7 +456,7 @@ function CatchHeartsGame({ onComplete }: { onComplete: () => void }) {
       if (pointsChange !== 0) {
         setScore(s => {
           const newScore = Math.max(0, s + pointsChange);
-          if (newScore >= 5 && !rewardUnlocked) {
+          if (newScore >= 100 && !rewardUnlocked) {
             setRewardUnlocked(true);
             setIsPlaying(false);
             onComplete();

@@ -267,7 +267,6 @@ export const loveReasons: string[] = [
   "You are a dancer.",
   "You are possessive. Kinda hot tbh.",
   "You have a great taste in music.",
-  "Not all who floats are the same. You should pop that one when you go home.",
   "You are the kind of person people write love letters about without meaning to.",
   "You make me feel less alone in the world.",
   "You've heard more of my overthinking than anyone should ever have to.",
@@ -287,7 +286,8 @@ export const loveReasons: string[] = [
   "You're surprisingly good at handling chaos while pretending you're not handling chaos.",
   "You don't lose your composure easily, and I really admire that about you.",
   "You have a very comforting presence, even through a screen.",
-  "You're one of the most emotionally intelligent people I've ever met."
+  "You're one of the most emotionally intelligent people I've ever met.",
+  "Not all who floats are the same. You should pop that one when you go home."
 ];
 
 

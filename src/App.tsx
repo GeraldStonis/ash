@@ -1268,10 +1268,8 @@ export default function App() {
                               setTimeout(() => {
                                 setShuffledReasons(prev => {
                                   const arr = [...prev];
-                                  for (let i = arr.length - 1; i > 0; i--) {
-                                    const j = Math.floor(Math.random() * (i + 1));
-                                    [arr[i], arr[j]] = [arr[j], arr[i]];
-                                  }
+                                  const first = arr.shift();
+                                  if (first) arr.push(first);
                                   return arr;
                                 });
                               }, 300);
